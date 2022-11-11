@@ -1,0 +1,12 @@
+.hfooter>div>div{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.hfooter{
+    padding: 40px;
+}
+.col{
+    color: #737373;
+}

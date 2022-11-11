@@ -1,0 +1,105 @@
+.header{
+    background:rgba(0,0,0,0.5) url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 65vh;
+    background-position: center;
+    background-blend-mode:darken; 
+    /* filter: blur(1.5px); */
+    /* filter: ; */
+    width: 100%;
+
+
+}
+.text_pos{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+.text_pos>h1{
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+    
+
+}
+.text_pos>div{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    padding-right: 40px;
+    /* border: 1px solid red; */
+}
+.text_pos>div>div{
+    /* text-align: center; */
+
+    width: 60%;
+    background-color: whitesmoke;
+    padding: 10px;
+/* border: 1px solid pink; */
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+
+.textt{
+    position: absolute;
+    top: 40%;
+    color: #FFFFFF;
+}
+.imgg{
+    /* background-color:rgba(0,0,0,0.5) ; */
+    filter: brightness(40%);
+    background-blend-mode:darken ;
+}
+
+.card{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+}
+.card>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.slick-slide >div {
+    margin: 0 30px;
+}
+.slick-list{
+    margin: 0 -30px;
+}
+.slick-prev:before {
+    color: rgb(21, 9, 9) !important;
+
+    background-color: #eee;
+  }
+  .slick-next:before {
+    color: rgb(21, 9, 9) !important;
+    background-color: #eee;
+  }
+.top{
+    width: 90%;
+    margin:0 auto ;
+    margin-top: 15px;
+    margin-bottom: 85px;
+    /* background-color: pink; */
+}
+.top>h2{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
